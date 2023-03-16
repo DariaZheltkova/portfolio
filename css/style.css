@@ -252,3 +252,27 @@ p, h1, h2, h3 {
 	line-height: 27px;
 	color: rgba(0, 0, 0, .5);
 }
+
+/* Skils */
+
+.skils {
+	margin-bottom: 120px;
+}
+
+.skils:last-child {
+	margin-bottom: 0;
+}
+
+.skils__title {
+	margin-bottom: 15px;
+	width: 651px;
+	font-size: 35px;
+	line-height: 46px;
+	color: #1bff07;
+}
+
+.skils__description {
+	width: 778px;
+	font-size: 22px;
+	line-height: 29px;
+}
