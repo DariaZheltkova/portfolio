@@ -5,76 +5,91 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Портфолио</title>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Дарья Желткова - FrontEnd разработчик</title>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Manrope&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-
 	<!-- Header -->
 	<header class="header">
 		<div class="container">
 			<div class="header__inner">
 				<div class="header__logo">
 					<a href="/">
-						<img src="img/logo.png" alt="логотип">
+						<img class="logo__img" src="img/DariaFrontEnd.png" alt="логотип DariaFrontEnd">
 					</a>
 				</div>
 				<nav class="nav">
-					<a href="#" class="nav__link">портфолио</a>
-					<a href="#" class="nav__link">компетенции</a>
+					<a href="#portfolio" class="nav__link">портфолио</a>
+					<a href="#skils" class="nav__link">компетенции</a>
 					<a href="#" class="nav__link">УСЛУГИ</a>
 					<a href="#" class="nav__link">КОНТАКТЫ</a>
 				</nav>
+				<button class="burger" type="button">
+					<span class="burger__icon">Menu</span>
+				</button>
 			</div>
-			<p class="header__text">
-				Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют
-				выделиться на фоне конкурентов
-			</p>
-			<h1 class="header__title">
-				Привет, я Саша — фронтенд разарботчик и дизайнер сайтов
-			</h1>
+			<div class="header__content">
+				<p class="header__text">
+					Создаю уникальные сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют
+					выделиться на фоне конкурентов
+				</p>
+				<h2 class="header__suptitle">Дарья Желткова</h2>
+				<h1 class="header__title"><span>FrontEnd</span> разработчик</h1>
+			</div>
 		</div>
 	</header>
 
 	<main class="main">
-
 		<!-- Projects -->
-		<section class="section">
+		<section class="section" id="portfolio">
 			<div class="container">
 				<h2 class="section__title">Самые свежие проекты</h2>
 				<ul class="projects">
 					<li class="project__item">
-						<img src="img/projects/1.png" alt="превью Realhome" class="project__preview">
+						<img src="img/projects/Снимок экрана 2023-03-23 191149.png" alt="превью Realhome" class="project__preview">
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="#">Realhome</a>
+								<a href="https://dariazheltkova.github.io/ActiveBox/" target="_blank">ActiveBox</a>
 							</h3>
-							<p class="project__text">дизайн,верстка, настройка</p>
+							<p class="project__text">верстка</p>
 						</div>
 					</li>
 
 					<li class="project__item">
-						<img src="img/projects/3.png" alt="превью GLASS" class="project__preview">
+						<img src="img/projects/Снимок экрана 2023-03-23 192540.png" alt="превью Fesiyen" class="project__preview">
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="#">GLASS</a>
+								<a href="https://dariazheltkova.github.io/project-1/" target="_blank">Студия дизайна интерьера
+									Метрика</a>
 							</h3>
-							<p class="project__text">разработка интерфейса</p>
+							<p class="project__text">верстка</p>
 						</div>
 					</li>
 
 					<li class="project__item">
-						<img src="img/projects/2.png" alt="превью Fesiyen" class="project__preview">
+						<img src="img/projects/Снимок экрана 2023-03-23 191731.png" alt="превью GLASS" class="project__preview">
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="#">Fesiyen</a>
+								<a href="https://transstroyservistnd28.ru/" target="_blank">ТрансСтройСервис</a>
 							</h3>
-							<p class="project__text">разработка интерфейса</p>
+							<p class="project__text">дизайн, верстка, настройка</p>
 						</div>
 					</li>
 				</ul>
@@ -82,9 +97,9 @@
 			</div>
 		</section>
 
-		<section class="section">
+		<section class="section" id="skils">
 			<div class="container">
-				<h2 class="section__title">Мои компетенции</h2>
+				<h2 class="section__title title__skils" id="skils">Мои компетенции</h2>
 				<div class="skils">
 					<h3 class="skils__title">HTML и CSS</h3>
 					<p class="skils__description">это основа фронтенд разработки. Умение создавать и правильно структурировать
@@ -114,17 +129,79 @@
 						под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
 				</div>
 			</div>
+		</section> 
+
+		<!-- Services -->
+		<section class="section" id="services">
+			<div class="container">
+				<h2 class="section__title-services">Помогаю реализовать <br> широкий спектр задач</h2>
+				<ul class="services">
+					<li class="services__item">
+						<img src="img/tasks/1.png" alt="" class="services__preview">
+						<div class="services__description">
+							<h3 class="services__title">Разработка сайта под ключ</h3>
+							<p class="services__text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения
+								бизнес-задач
+								Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит
+								целевое действие</p>
+						</div>
+					</li>
+
+					<li class="services__item">
+						<img src="img/tasks/2.png" alt="" class="services__preview">
+						<div class="services__description">
+							<h3 class="services__title">Верстка сайтов</h3>
+							<p class="services__text">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд
+								разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+						</div>
+					</li>
+
+					<li class="services__item">
+						<img src="img/tasks/3.png" alt="" class="services__preview">
+						<div class="services__description">
+							<h3 class="services__title">Разработка мобильного интерфейса</h3>
+							<p class="services__text">Это процесс создания интерактивных элементов на странице с помощью JavaScript.
+								Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего
+								сайта или приложения.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</section>
 
-		<section class="section">
+		<section class="section" id="contacts">
 			<div class="section__contacts">
 				<div class="container">
-					<h3 class="contacts__title">Для связи:</h3>
-					<div>
+		<h3 class="contacts__title" id="contacts">Для связи:</h3>
+					<div class="contacts">
 						<div class="contact__info"><a class="contact__link" href="#">instagram</a></div>
 						<div class="contact__info"><a class="contact__link" href="#">telegram</a></div>
 						<div class="contact__info"><a class="contact__link" href="#">mail</a></div>
 					</div>
+
+
+
+		<div class="modal__container">
+
+						<header class="modal__header">
+							<h2 class="modal__title" id="modal-1-title">
+								Оставить заявку
+							</h2>
+
+						</header>
+						<form action="#">
+							<main class="modal__content">
+								<input class="form-input modal__input" type="text" name="VH-Name" placeholder="Ваше имя...">
+								<input class="form-input modal__input" type="text" name="VH-Phone" placeholder="Ваш телефон...">
+								<textarea class="form-input modal__input" name="Message" placeholder="Сообщение..."></textarea>
+							</main>
+						</form>
+						<footer class="modal__footer">
+							<button class="button"><span>Отправить</span></button>
+						</footer>
+					</div>
+
+
 				</div>
 			</div>
 		</section>
@@ -134,12 +211,13 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__info">
-				<p class="footer__text">Портфолио фротнтенд-разработчика Саши Орлова</p>
+				<p class="footer__text">Портфолио фротнтенд-разработчика Дарьи Желтковой</p>
 				<p class="footer__copyright">Все права защищены. 2023</p>
 			</div>
-
 		</div>
 	</footer>
+
+	<script src="js/app.js"></script>
 </body>
 
 </html>
