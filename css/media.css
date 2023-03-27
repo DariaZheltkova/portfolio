@@ -53,7 +53,28 @@
 	font-size: 22px;
 	line-height: 29px;
 	}
+
+	/* Section */
+.section:first-child {
+	padding: 100px 0;
 }
+
+.section__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+	line-height: 56.5px;
+}
+
+/* Projects */
+.project__preview {
+	height: auto;
+}
+
+.projects__info {
+	padding: 50px 80px;
+}
+}
+
 
 @media (max-width: 767px) {
 	/* Header */
@@ -102,4 +123,13 @@
 .header__suptitle {
 	margin-bottom: 10px;
 }
+
+/* Projects */
+.section__title {
+	margin-bottom: 15px;
+	font-size: 25px;
+	line-height: 41.5px;
+}
+
+
 }
