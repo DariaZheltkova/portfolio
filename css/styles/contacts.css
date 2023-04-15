@@ -39,5 +39,6 @@
 
 .contact__social-link:hover, 
 .contact__social-link:focus {
+	outline: none;
 	color: #fcac45;
 }
