@@ -9,6 +9,7 @@
 
 .skills__title {
 	margin-bottom: 15px;
+	max-width: 651px;
 	font-size: 35px;
 	line-height: 46px;
 	color: #fcac45;
