@@ -303,7 +303,7 @@ p, h1, h2, h3 {
 }
 
 .services__text {
-	width: 749px;
+	max-width: 749px;
 	font-size: 22px;
 	line-height: 29px;
 }
