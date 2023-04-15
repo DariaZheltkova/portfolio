@@ -1,3 +1,6 @@
+@import url(styles/header.css);
+@import url(styles/nav.css);
+
 *,
 *::before,
 *::after {
@@ -27,119 +30,11 @@ p, h1, h2, h3 {
 	width: 100%;
 }
 
-/* Header */
-
-.header {
-	position: relative;
-	background: url(../img/stol-noutbuk-monitor-klaviatura-banka-karandashi-chashka-kni.jpg) no-repeat center;
-	background-size: cover;
-	width: 100%;
-	height: 765px;
-}
-
-.header::before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #303030;
-	opacity: .6;
-	z-index: 2;
-}
-
-.header__inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 27px;
-	position: relative;
-	z-index: 10; 
-}
-
-.header__text {
-	margin-bottom: 29px;
-	max-width: 430px;
-	font-size: 20px;
-	line-height: 26px;
-}
-
-.header__content {
-	position: relative;
-	z-index: 5;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: left;
-	padding: 249px 0 94px;
-	max-width: 912px;
-}
-
-.header__suptitle, 
-.header__title {
-	max-width: 919px;
-	font-size: 80px;
-	line-height: 70px;
-	font-weight: 700;
-}
-
-.header__suptitle {
-	margin-bottom: 20px;
-}
-
-.header__title span {
-	color: #fcac45;
-}
 
 /* Main */
 
 .main {
 	background-color: #000;
-}
-
-/* Nav */
-
-.nav {
-	display: flex;
-}
-
-.nav__link {
-	margin-right: 50px;
-	font-size: 18px;
-	line-height: 23px;
-	text-transform: uppercase;
-	color: #fff;
-	text-decoration: none;
-	transition: color .2s linear;
-	position: relative;
-}
-
-.nav__link:last-child {
-	margin-right: 0;
-}
-
-.nav__link::after {
-	content: "";
-	height: 3px;
-	width: 0;
-	background-color: #fcac45;
-	position: absolute;
-	bottom: -10px;
-	left: 0;
-	z-index: 1;
-	transition: width .2s linear;
-}
-
-.nav__link:focus {
-	outline: none;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-	color: #fcac45;
-}
-
-.nav__link:hover::after {
-	width: 100%;
 }
 
 /* Section */
@@ -193,10 +88,12 @@ p, h1, h2, h3 {
 }
 
 .project__item {
+	
 	position: relative;
 	border-radius: 30px;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
 	overflow: hidden;
+	/* border: 1px solid #000; */
 }
 
 .project__item::after {
@@ -211,30 +108,42 @@ p, h1, h2, h3 {
 	z-index: 1;
 }
 
+.project__link {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
 .project__preview {
 	display: block;
 	width: 100%;
 	max-width: 1150px;
 	height: 550px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 	border-radius: 30px;
 	object-fit: cover;
+	transition: 1s all;
 }
 
 .project__description {
 	position: absolute;
 	bottom: 50px;
 	left: 50px;
-	z-index: 3;
+	z-index: 5;
 }
 
 .project__title {
 	margin-bottom: 5px;
 	font-size: 35px;
 	line-height: 45.5px;
+	text-decoration: none;
+	color: #fff;
 }
 
-.project__title a {
+.project__title__link {
 	text-decoration: none;
 	color: #fff;
 }
@@ -249,9 +158,7 @@ p, h1, h2, h3 {
 }
 
 .projects__info {
-	display: block;
-	max-width: 582px;
-	height: 153px;
+	display: inline-block;
 	padding: 56px 86px;
 	background-color: #fcac45;
 	color: #000;
@@ -268,6 +175,10 @@ p, h1, h2, h3 {
 	border: 1px solid #fcac45;
 	color: #fcac45;
 	background-color: #000;
+}
+
+.project__item:hover .project__preview {
+	transform: scale(1.05);
 }
 
 /* Services */

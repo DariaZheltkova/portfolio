@@ -1,0 +1,60 @@
+.header {
+	position: relative;
+	background: url(../../../img/stol-noutbuk-monitor-klaviatura-banka-karandashi-chashka-kni.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 765px;
+}
+
+.header::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #303030;
+	opacity: .6;
+	z-index: 2;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 27px;
+	position: relative;
+	z-index: 10; 
+}
+
+.header__text {
+	margin-bottom: 29px;
+	max-width: 430px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.header__content {
+	position: relative;
+	z-index: 5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	padding: 249px 0 94px;
+	max-width: 912px;
+}
+
+.header__suptitle, 
+.header__title {
+	max-width: 919px;
+	font-size: 80px;
+	line-height: 70px;
+	font-weight: 700;
+}
+
+.header__suptitle {
+	margin-bottom: 20px;
+}
+
+.header__title span {
+	color: #fcac45;
+}

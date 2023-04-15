@@ -36,14 +36,12 @@
 					</a>
 				</div>
 				<nav class="nav">
-
 					<div class="nav__list">
 						<a href="#portfolio" class="nav__link">портфолио</a>
 						<a href="#skils" class="nav__link">компетенции</a>
 						<a href="#" class="nav__link">УСЛУГИ</a>
 						<a href="#" class="nav__link">КОНТАКТЫ</a>
 					</div>
-
 				</nav>
 				<button class="burger" type="button">
 					<span class="burger__icon">Menu</span>
@@ -60,48 +58,56 @@
 		</div>
 	</header>
 
-	<!-- <main class="main"> -->
-	<!-- Projects -->
-	<!-- <section class="section" id="portfolio">
+	<main class="main">
+		<!-- Projects -->
+		<section class="section" id="portfolio">
 			<div class="container">
 				<h2 class="section__title">Самые свежие проекты</h2>
 				<ul class="projects">
 					<li class="project__item">
-						<img src="img/projects/Снимок экрана 2023-03-23 191149.png" alt="превью Realhome" class="project__preview">
+						<picture>
+							<source media="(max-width: 500px)" srcset="img/projects/ActiveBox__mobile.png" />
+							<source media="(max-width: 1199px)" srcset="img/projects/ActiveBox__tablet.png" />
+							<img src="img/projects/ActiveBox.png" alt="превью Realhome" class="project__preview">
+						</picture>
+						
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="https://dariazheltkova.github.io/ActiveBox/" target="_blank">ActiveBox</a>
+								<a class="project__title__link" href="https://dariazheltkova.github.io/ActiveBox/" target="_blank">ActiveBox</a>
 							</h3>
 							<p class="project__text">верстка</p>
 						</div>
+						<a href="https://dariazheltkova.github.io/ActiveBox/" class="project__link" target="_blank" ></a>
 					</li>
 
 					<li class="project__item">
 						<img src="img/projects/Снимок экрана 2023-03-23 192540.png" alt="превью Fesiyen" class="project__preview">
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="https://dariazheltkova.github.io/project-1/" target="_blank">Студия дизайна интерьера
+								<a class="project__title__link" href="https://dariazheltkova.github.io/project-1/" target="_blank">Студия дизайна интерьера
 									Метрика</a>
 							</h3>
 							<p class="project__text">верстка</p>
 						</div>
+						<a href="https://dariazheltkova.github.io/project-1/" class="project__link" target="_blank" ></a>
 					</li>
 
 					<li class="project__item">
 						<img src="img/projects/Снимок экрана 2023-03-23 191731.png" alt="превью GLASS" class="project__preview">
 						<div class="project__description">
 							<h3 class="project__title">
-								<a href="https://transstroyservistnd28.ru/" target="_blank">ТрансСтройСервис</a>
+								<a class="project__title__link" href="https://transstroyservistnd28.ru/" target="_blank">ТрансСтройСервис</a>
 							</h3>
 							<p class="project__text">дизайн, верстка, настройка</p>
 						</div>
+						<a href="https://transstroyservistnd28.ru/" class="project__link" target="_blank" ></a>
 					</li>
 				</ul>
 				<a class="projects__info" href="#">Смотреть все проекты</a>
 			</div>
 		</section>
 
-		<section class="section" id="skils">
+		<!-- <section class="section" id="skils">
 			<div class="container">
 				<h2 class="section__title title__skils" id="skils">Мои компетенции</h2>
 				<div class="skils">
@@ -135,8 +141,8 @@
 			</div>
 		</section> -->
 
-	<!-- Services -->
-	<!-- <section class="section" id="services">
+		<!-- Services -->
+		<!-- <section class="section" id="services">
 			<div class="container">
 				<h2 class="section__title-services">Помогаю реализовать <br> широкий спектр задач</h2>
 				<ul class="services">
@@ -208,10 +214,10 @@
 				</div>
 			</div>
 		</section>
-	</main> -->
+	 </main>
 
 	<!-- Footer -->
-	<!-- <footer class="footer">
+		<!-- <footer class="footer">
 		<div class="container">
 			<div class="footer__info">
 				<p class="footer__text">Портфолио фротнтенд-разработчика Дарьи Желтковой</p>
@@ -220,7 +226,7 @@
 		</div>
 	</footer> -->
 
-	<script src="js/app.js"></script>
+		<script src="js/app.js"></script>
 </body>
 
 </html>

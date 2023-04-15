@@ -1,0 +1,43 @@
+.nav {
+	display: flex;
+}
+
+.nav__link {
+	margin-right: 50px;
+	font-size: 18px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	transition: color .2s linear;
+	position: relative;
+}
+
+.nav__link:last-child {
+	margin-right: 0;
+}
+
+.nav__link::after {
+	content: "";
+	height: 3px;
+	width: 0;
+	background-color: #fcac45;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	z-index: 1;
+	transition: width .2s linear;
+}
+
+.nav__link:focus {
+	outline: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+	color: #fcac45;
+}
+
+.nav__link:hover::after {
+	width: 100%;
+}
