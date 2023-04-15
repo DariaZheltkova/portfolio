@@ -59,15 +59,19 @@
 	}
 
 	/* Section */
-.section:first-child {
-	padding: 100px 0;
-}
 
-.section__title {
+	.section {
+		padding-bottom: 100px;
+	}
+
+	.section:first-child {
+		padding: 100px 0 ;
+	}
+/* .section__title {
 	margin-bottom: 20px;
 	font-size: 40px;
 	line-height: 56.5px;
-}
+} */
 
 /* Projects */
 .project__preview {
@@ -76,6 +80,15 @@
 
 .projects__info {
 	padding: 50px 80px;
+}
+
+.services__item {
+	margin-bottom: 100px;
+}
+
+.services__title {
+	font-size: 45px;
+	line-height: 62px;
 }
 }
 
@@ -86,7 +99,7 @@
 		height: auto;
 	}
 
-	.logo__img {
+	.header__logo-img {
 		width: 70%;
 	}
 
@@ -116,6 +129,7 @@
 }
 
 @media (max-width: 447px) {
+
 .header__text {
 	margin-bottom: 15px;
 	font-size: 15px;
@@ -160,6 +174,22 @@
 	line-height: 21px;
 }
 
+.services__description {
+	padding: 20px;
+}
 
+.services__title {
+	font-size: 25px;
+	line-height: 35px;
+}
+
+.services__text {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.services__item {
+	margin-bottom: 70px;
+}
 
 }

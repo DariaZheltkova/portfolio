@@ -29,15 +29,14 @@
 	transition: width .2s linear;
 }
 
-.nav__link:focus {
-	outline: none;
-}
-
 .nav__link:hover,
-.nav__link:focus {
+.nav__link:focus,
+.nav__link:active {
+	outline: none;
 	color: #fcac45;
 }
 
-.nav__link:hover::after {
+.nav__link:hover::after,
+.nav__link:focus::after {
 	width: 100%;
 }

@@ -1,0 +1,51 @@
+.burger {
+	padding: 9px 2px;
+	display: none;
+	border: 0;
+	background: none
+	}
+	
+.burger__icon {
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	font-size: 0;
+	color: transparent;
+	position: relative;
+	cursor: pointer;	
+}
+	
+.burger__icon:before,
+.burger__icon:after{
+	content: "";
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+	background-color: #fff;
+	transition: all .2s ease-in-out;
+	}
+	
+.burger__icon:before {
+	top: -8px;
+	}
+	
+.burger__icon:after {
+	bottom: -8px;
+	}
+ 
+.burger__icon.show {
+	background-color: transparent;
+}
+
+.burger__icon.show::before {
+	top: -50%;
+	transform: rotate(-45deg);
+}
+
+.burger__icon.show::after {
+	bottom: 50%;
+	transform: rotate(45deg);
+}

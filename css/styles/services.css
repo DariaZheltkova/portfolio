@@ -1,0 +1,35 @@
+.services__item {
+	margin-bottom: 137px;
+}
+
+.services__item:last-child { 
+	margin-bottom: 0;
+}
+
+.services__preview {
+	max-width: 1150px;
+	width: 100%;
+	height: 200px;
+	border-radius: 30px;
+	object-fit: cover;
+}
+
+.services__description {
+	padding: 40px;
+	position: relative;
+	background-color: #191C19;
+	border-radius: 30px;
+}
+
+.services__title {
+	margin-bottom: 15px;
+	font-size: 55px;
+	line-height: 72px;
+	color: #fcac45;
+}
+
+.services__text {
+	max-width: 749px;
+	font-size: 22px;
+	line-height: 29px;
+}

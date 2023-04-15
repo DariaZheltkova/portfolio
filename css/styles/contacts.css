@@ -1,0 +1,43 @@
+.contacts {
+	position: relative;
+	z-index: 10;
+}
+
+.contacts__social {
+	position: relative;
+}
+
+.contacts__social-wrapper {
+	position: absolute;
+	left: 0;
+	top: 320px;
+}
+
+.contacts__social-title {
+	margin-bottom: 28px;
+	font-size: 35px;
+	line-height: 60px;
+	position: relative;
+	z-index: 10;
+}
+
+.contact__social-info {
+	margin-bottom: 20px;
+}
+
+.contact__social-info:last-child {
+	margin-bottom: 0;
+}
+
+.contact__social-link {
+	font-size: 60px;
+	line-height: 60px;
+	text-decoration: none;
+	color: #fff;
+	transition: color .2s ease-out;
+}
+
+.contact__social-link:hover, 
+.contact__social-link:focus {
+	color: #fcac45;
+}
