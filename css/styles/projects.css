@@ -79,7 +79,7 @@
 }
 
 .projects__info {
-	display: inline-block;
+	display: block;
 	padding: 56px 86px;
 	background-color: #fcac45;
 	color: #000;

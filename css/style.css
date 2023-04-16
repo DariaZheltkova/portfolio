@@ -17,6 +17,7 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 400;
 	color: #fff;
+	background-color: #000;
 }
 
 body.no-scroll {
@@ -34,12 +35,6 @@ p, h1, h2, h3 {
 	padding: 0 15px;
 	max-width: 1183px;
 	width: 100%;
-}
-
-/* Main */
-
-.main {
-	background-color: #000;
 }
 
 /* Section */
