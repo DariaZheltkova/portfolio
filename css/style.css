@@ -67,6 +67,7 @@ p, h1, h2, h3 {
 	background-color: #303030;
 	opacity: .6;
 	z-index: 2;
+	border-radius: 30px;
 }
 
 .section__title {
