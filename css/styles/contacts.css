@@ -1,48 +1,96 @@
-/* .contacts {
+.contacts__title {
+	margin-bottom: 60px;
 	position: relative;
 	z-index: 10;
-} */
-
-/* .contacts__social {
-	position: relative;
-} */
-
-/* .contacts__social-wrapper {
-	position: absolute;
-	left: 0;
-	top: 320px;
-} */
-
-/* .contacts__social-title {
-	margin-bottom: 28px;
-	font-size: 35px;
-	line-height: 60px;
-	position: relative;
-	z-index: 10;
-}
-
-.contact__social-info {
-	margin-bottom: 20px;
-}
-
-.contact__social-info:last-child {
-	margin-bottom: 0;
-} */
-
-/* .contact__social-link {
+	max-width: 553px;
 	font-size: 60px;
 	line-height: 60px;
-	text-decoration: none;
-	color: #fff;
-	transition: color .2s ease-out;
 }
 
-.contact__social-link:hover, 
-.contact__social-link:focus {
+.form__container {
+	position: relative;
+	top: 60px;
+	left: 0;
+	z-index: 10;
+	padding: 30px;
+	width: 50%;
+	/* max-width: 340px; */
+	max-height: 100vh;
+	background-color: #343434;
+	box-shadow: 0 0 0 8px rgba(255, 255, 255, .1);
+	border-radius: 4px;
+	overflow-y: auto;
+}
+
+.form__content {
+	margin: 32px 0;
+	/* margin-bottom: 32px; */
+	}
+
+.modal__header {
+	text-align: center;
+}
+
+.modal__title {
+	width: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.form-input {
+	margin-bottom: 8px;
+	padding: 12px 18px;
+	display: block;
+	width: 100%;
+	/* min-width: 280px; */
+	font-size: 15px;
+	color: #fff;
+	background-color: #303030;
+	border: 1px solid #424242;
+	transition: border .25s ease-in;
 	outline: none;
-	color: #fcac45;
+	}
+
+.form__textarea {
+	min-height: 100px;
+	resize: none;
+}
+
+.form-input:focus {
+	border: 1px solid #636363;
+}
+
+/* .modal__footer {
+	text-align: center;
 } */
 
+.form__button {
+	display: block;
+	background-color: #f57500;
+	border: 1px solid #f57500;
+	color: #fff;
+	display: inline-block;
+	width: 80%;
+	font-size: 10px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	padding: 14px 30px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	transition: background-color .2s ease-in, border .2s ease-in;
+}
+
+.form__button:hover {
+	background-color: #343434;
+}
+
+.form__wrapper {
+	display: flex;
+	justify-content: center;
+}
 
 
 
