@@ -1,19 +1,19 @@
-.contacts {
+/* .contacts {
 	position: relative;
 	z-index: 10;
-}
+} */
 
-.contacts__social {
+/* .contacts__social {
 	position: relative;
-}
+} */
 
-.contacts__social-wrapper {
+/* .contacts__social-wrapper {
 	position: absolute;
 	left: 0;
 	top: 320px;
-}
+} */
 
-.contacts__social-title {
+/* .contacts__social-title {
 	margin-bottom: 28px;
 	font-size: 35px;
 	line-height: 60px;
@@ -27,9 +27,9 @@
 
 .contact__social-info:last-child {
 	margin-bottom: 0;
-}
+} */
 
-.contact__social-link {
+/* .contact__social-link {
 	font-size: 60px;
 	line-height: 60px;
 	text-decoration: none;
@@ -41,4 +41,15 @@
 .contact__social-link:focus {
 	outline: none;
 	color: #fcac45;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
