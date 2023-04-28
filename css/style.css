@@ -95,6 +95,10 @@ p, h1, h2, h3 {
 	margin-right: 24px;
 }
 
+.social__item:last-child {
+	margin-right: 0;
+}
+
 .social__item-link {
 	width: 50px;
 	height: 50px;
@@ -102,6 +106,15 @@ p, h1, h2, h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.social__item-link:focus {
+	outline: none;
+}
+
+.social__item-link:focus > .social__icon {
+	fill: #fcac45;
+	opacity: 1;
 }
 
 .social__icon {
@@ -113,7 +126,6 @@ p, h1, h2, h3 {
 }
 
 .social__icon:hover,
-.social__icon:focus, 
 .social__icon:active {
 	outline: none;
 	opacity: 1;
