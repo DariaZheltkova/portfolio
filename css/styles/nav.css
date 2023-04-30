@@ -1,13 +1,6 @@
-.nav {
-	display: flex;
-	justify-content: space-between;
-}
-
 .nav__list {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	
 }
 
 .nav__list-item {
