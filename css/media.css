@@ -21,6 +21,10 @@
 		flex-direction: column;
 	}
 
+	.nav__list-item {
+		margin-right: 0;
+	}
+
 	.nav__link {
 		font-size: 30px;
 		margin: 0 0 25px;

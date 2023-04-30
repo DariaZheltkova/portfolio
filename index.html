@@ -59,18 +59,10 @@
 				</div>
 				<nav class="nav">
 					<ul class="nav__list">
-						<li class="nav__list-item">
-							<a href="#portfolio" class="nav__link">портфолио</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="#skills" class="nav__link">компетенции</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="#services" class="nav__link">УСЛУГИ</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-						</li>
+						<li class="nav__list-item"><a href="#portfolio" class="nav__link">портфолио</a></li>
+						<li class="nav__list-item"><a href="#skills" class="nav__link">компетенции</a></li>
+						<li class="nav__list-item"><a href="#services" class="nav__link">УСЛУГИ</a></li>
+						<li class="nav__list-item"><a href="#contacts" class="nav__link">КОНТАКТЫ</a></li>
 					</ul>
 				</nav>
 				<button class="burger" type="button">
@@ -100,6 +92,7 @@
 							<source media="(max-width: 1024px)" srcset="img/projects/ABox_tablet.png">
 							<img src="img/projects/ABox.png" alt="превью ActiveBox" class="project__preview">
 						</picture>
+						<p class="project__label">учебный макет</p>
 						<div class="project__description">
 							<h3 class="project__title">
 								<a class="project__title-link" href="https://dariazheltkova.github.io/ActiveBox/"
@@ -116,10 +109,11 @@
 							<source media="(max-width: 1024px)" srcset="img/projects/metrika_tablet.png">
 							<img src="img/projects/metrika.png" alt="превью студии дизайна Метрика" class="project__preview">
 						</picture>
+						<p class="project__label">дизайн интерьера</p>
 						<div class="project__description">
 							<h3 class="project__title">
-								<a class="project__title-link" href="https://dariazheltkova.github.io/metrika/" target="_blank">Студия
-									дизайна интерьера Метрика</a>
+								<a class="project__title-link" href="https://dariazheltkova.github.io/metrika/"
+									target="_blank">Метрика</a>
 							</h3>
 							<p class="project__text">верстка</p>
 						</div>
@@ -133,6 +127,7 @@
 							<img src="img/projects/tss.png" alt="превью транспортной компании ТрансСтройСервис"
 								class="project__preview">
 						</picture>
+						<p class="project__label">транспортная компания</p>
 						<div class="project__description">
 							<h3 class="project__title">
 								<a class="project__title-link" href="https://transstroyservistnd28.ru/"
@@ -235,7 +230,9 @@
 							<input class="form-input" type="email" name="email" placeholder="Ваш email...">
 							<textarea class="form-input form__textarea" name="Message" placeholder="Сообщение..."></textarea>
 						</form>
-						<button class="form__button"><span>Отправить</span></button>
+						<div class="form__footer">
+							<button class="form__button"><span>Отправить</span></button>
+						</div>
 					</div>
 				</div>
 			</div>
