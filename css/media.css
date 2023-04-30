@@ -1,5 +1,4 @@
 @media (max-width: 991px) {
-
 	/* Nav */
 	.nav {
 		display: none; 
@@ -46,6 +45,10 @@
 	}
 
 	/* Header */
+	.header__inner {
+		padding-top: 10px;
+	}
+
 	.header__suptitle, 
 	.header__title {
 		font-size: 60px;
@@ -135,7 +138,7 @@
 	}
 
 	.section__contacts {
-		padding: 25px 0;
+		padding: 35px 0;
 		height: 517px;
 		}
 
@@ -171,19 +174,13 @@
 	}
 
 	/* Contacts */
-	.contacts__social-wrapper {
-		top: 87px;
-		left: 15px;
-	}
-
-	/*  */
 	.form__wrapper {
 		display: flex;
 		justify-content: center;
 	}
 
 	.form__container {
-		top: 30px;
+		padding: 15px;
 	}
 
 	/* Footer */
@@ -191,9 +188,18 @@
 		padding-top: 50px;
 	}
 
+	.footer__info {
+		align-items: center;
+	}
+
 	.footer__info-text {
 		font-size: 20px;
 		line-height: 28px;
+		text-align: center;
+	}
+
+	.footer__copyright {
+		align-items: center;
 	}
 
 	/* Social */
@@ -229,18 +235,18 @@
 	/* Section */
 	.section__services-title {
 		margin-bottom: 50px;
-		font-size: 30px;
-		line-height: 41px;
+		font-size: 28px;
+		line-height: 36px;
 	}
 
 	.section__contacts {
-		padding: 10px 0;
-		height: 450px;
+		padding: 30px 0;
+		height: 460px;
 	}
 
 	.section__title {
-		font-size: 35px;
-		line-height: 41.5px;
+		font-size: 30px;
+		line-height: 39px;
 	}
 
 	/* Projects */
@@ -294,23 +300,13 @@
 	}
 
 	/* Contacts */
-	.contacts__social-wrapper {
-		top: 120px;
-	}
-
-	.contacts__social-title {
-		margin-bottom: 20px;
-	} 
-
-	.contact__social-link {
-		font-size: 50px;
-		line-height: 50px;
-	}
-
-	/*  */
 	.form__container {
 		width: 100%;
-		top: 2px;
+	}
+
+	.form__title {
+		font-size: 18px;
+		line-height: 23px;
 	}
 
 	/* Footer */
@@ -322,7 +318,6 @@
 		margin-bottom: 40px;
 		flex-direction: column;
 		flex-wrap: wrap;
-		align-items: normal;
 	}
 
 	.footer__info-text {
