@@ -58,12 +58,20 @@
 					</a>
 				</div>
 				<nav class="nav">
-					<div class="nav__list">
-						<a href="#portfolio" class="nav__link">портфолио</a>
-						<a href="#skills" class="nav__link">компетенции</a>
-						<a href="#services" class="nav__link">УСЛУГИ</a>
-						<a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-					</div>
+					<ul class="nav__list">
+						<li>
+							<a href="#portfolio" class="nav__link">портфолио</a>
+						</li>
+						<li>
+							<a href="#skills" class="nav__link">компетенции</a>
+						</li>
+						<li>
+							<a href="#services" class="nav__link">УСЛУГИ</a>
+						</li>
+						<li>
+							<a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+						</li>
+					</ul>
 				</nav>
 				<button class="burger" type="button">
 					<span class="burger__icon">Menu</span>
@@ -221,12 +229,11 @@
 						<h2 class="form__title">
 							Для связи со мной заполните простую форму
 						</h2>
-						<form action="#">
-							<div class="form__content">
-								<input class="form-input" type="text" name="Name" placeholder="Ваше имя...">
-								<input class="form-input" type="text" name="Phone" placeholder="Ваш телефон...">
-								<textarea class="form-input form__textarea" name="Message" placeholder="Сообщение..."></textarea>
-							</div>
+						<form action="#" class="form__content">
+							<input class="form-input" type="text" name="name" placeholder="Ваше имя...">
+							<input class="form-input" type="tel" name="phone" placeholder="Ваш телефон...">
+							<input class="form-input" type="email" name="email" placeholder="Ваш email...">
+							<textarea class="form-input form__textarea" name="Message" placeholder="Сообщение..."></textarea>
 						</form>
 						<button class="form__button"><span>Отправить</span></button>
 					</div>
