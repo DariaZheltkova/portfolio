@@ -1,9 +1,25 @@
 .nav {
 	display: flex;
+	justify-content: space-between;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.nav__list-item {
+	margin-right: 50px;
+}
+
+.nav__list-item:last-child {
+	margin-right: 0;
 }
 
 .nav__link {
-	margin-right: 50px;
+	display: block;
 	font-size: 18px;
 	line-height: 23px;
 	text-transform: uppercase;
@@ -11,10 +27,6 @@
 	text-decoration: none;
 	transition: color .2s linear;
 	position: relative;
-}
-
-.nav__link:last-child {
-	margin-right: 0;
 }
 
 .nav__link::after {
