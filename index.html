@@ -51,9 +51,9 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="container">
-			<div class="header__inner">
-				<div class="header__logo">
-					<a href="https://dariazheltkova.github.io/portfolio/">
+			<div class="header__inner" id="header__inner">
+				<div class="header__logo" id="header__logo">
+					<a href="/">
 						<img class="header__logo-img" src="img/DariaFrontEnd.png" alt="логотип DariaFrontEnd">
 					</a>
 				</div>
@@ -65,9 +65,47 @@
 						<li class="nav__list-item"><a href="#contacts" class="nav__link">КОНТАКТЫ</a></li>
 					</ul>
 				</nav>
-				<button class="burger" type="button">
-					<span class="burger__icon">Menu</span>
+				<button class="burger" id="burger" type="button">
+					<span class="burger__icon" id="burger__icon">Menu</span>
 				</button>
+			</div>
+			<div class="burger__menu" id="burger__menu">
+				<div class="burger__content">
+					<div class="burger__logo">
+						<img class="burger__logo-img" src="img/DariaFrontEnd.png" alt="логотип DariaFrontEnd">
+					</div>
+					<nav class="burger__nav">
+						<ul class="burger__nav-list">
+							<li><a href="#portfolio" class="burger__nav-link">портфолио</a></li>
+							<li><a href="#skills" class="burger__nav-link">компетенции</a></li>
+							<li><a href="#services" class="burger__nav-link">УСЛУГИ</a></li>
+							<li><a href="#contacts" class="burger__nav-link">КОНТАКТЫ</a></li>
+						</ul>
+					</nav>
+					<ul class="social social__burger">
+						<li class="social__item social__burger-item">
+							<a class="social__item-link social__burger-link" href="https://www.instagram.com/dariazhel28" target="_blank">
+								<svg class="social__icon social__burger-icon">
+									<use xlink:href="#instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item social__burger-item">
+							<a class="social__item-link social__burger-link" href="https://t.me/dariazhel" target="_blank">
+								<svg class="social__icon social__burger-icon">
+									<use xlink:href="#telegram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item social__burger-item">
+							<a class="social__item-link social__burger-link" href="mailto:stdap28@gmail.com">
+								<svg class="social__icon social__burger-icon">
+									<use xlink:href="#mail"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="header__content">
 				<p class="header__text">

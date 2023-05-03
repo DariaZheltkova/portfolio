@@ -118,6 +118,22 @@ p, h1, h2, h3 {
 	fill: #fcac45;
 }
 
+.social__burger {
+	justify-content: center;
+	align-items: center;
+}
+
+.social__burger-icon {
+	fill: #fff;
+	opacity: 1;
+}
+
+.social__burger-link {
+	background-color: transparent;
+}
+
+
+
 
 
 

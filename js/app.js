@@ -1,6 +1,8 @@
-const menu = document.querySelector('.nav');
-const menuBtn = document.querySelector('.burger');
-const burgerIcon = document.querySelector('.burger__icon');
+const menu = document.querySelector('#burger__menu');
+const menuBtn = document.querySelector('#burger');
+const burgerIcon = document.querySelector('#burger__icon');
+const logo = document.querySelector('#header__logo');
+const header = document.querySelector('#header__inner');
 
 const body = document.body;
 
@@ -10,14 +12,18 @@ if (menu && menuBtn) {
 		menuBtn.classList.toggle('show')
 		burgerIcon.classList.toggle('show')
 		body.classList.toggle('no-scroll')
+		logo.classList.toggle('no-show')
+		header.classList.toggle('flex__end')
 	})
 
-	menu.querySelectorAll('.nav__link').forEach(link => {
+	menu.querySelectorAll('.burger__nav-link').forEach(link => {
 		link.addEventListener('click', () => {
 			menu.classList.remove('show')
 			menuBtn.classList.remove('show')
 			burgerIcon.classList.remove('show')
 			body.classList.remove('no-scroll')
+			logo.classList.remove('no-show')
+			header.classList.remove('flex__end')
 		})
 	})
 }

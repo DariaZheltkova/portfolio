@@ -25,6 +25,14 @@
 	z-index: 10; 
 }
 
+.header__inner.flex__end {
+	justify-content: flex-end;
+}
+
+.header__logo.no-show {
+	display: none;
+}
+
 .header__content {
 	position: relative;
 	z-index: 5;

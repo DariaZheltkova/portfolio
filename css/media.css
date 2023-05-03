@@ -2,50 +2,15 @@
 	/* Nav */
 	.nav {
 		display: none; 
-		width: 100%;
-		height: 100vh;
-		text-align: center;
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		padding: 25px;
-		overflow: auto;
-		background: rgba(0, 0, 0, 0.9);
-	}
-
-	.nav__list {
-		margin: auto;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.nav__list-item {
-		margin-right: 0;
-	}
-
-	.nav__link {
-		font-size: 30px;
-		margin: 0 0 25px;
-		line-height: 62px;
-	}
-
-	.nav__link:last-child {
-		margin-bottom: 0;
-	}
-
-	.nav__link:hover::after {
-		width: 0;
-	}
-
-	.nav.show {
-		display: flex;
 	}
 
 	/* Burger */
 	.burger {
 		display: block;
+	}
+
+	.burger__menu.show {
+		transform: translateY(100%);
 	}
 
 	/* Header */
@@ -71,6 +36,14 @@
 	/* Projects */
 	.project__preview {
 		height: 536px;
+	}
+
+	.project__label {
+		padding: 8px 18px;
+		left: 40px;
+		top: 40px;
+		font-size: 16px;
+		line-height: 21px;
 	}
 
 	.projects__info {
@@ -153,6 +126,14 @@
 
 	.project__preview {
 		height: 450px;
+	}
+
+	.project__label {
+		padding: 6px 12px;
+		left: 30px;
+		top: 30px;
+		font-size: 13px;
+		line-height: 17px;
 	}
 
 	.projects__info {

@@ -28,7 +28,6 @@
 	width: 100%;
 	max-width: 1150px;
 	height: 550px;
-	/* border-radius: 30px; */
 	object-fit: cover;
 	transition: 1s all;
 	overflow: hidden;
@@ -45,7 +44,7 @@
 	left: 45px;
 	z-index: 5;
 	display: block;
-	background-color: #fb8111;
+	background-color: #fcac45;
 	font-size: 20px;
 	line-height: 27px;
 	border-radius: 100px;
@@ -97,7 +96,7 @@
 .projects__info {
 	display: block;
 	padding: 56px 86px;
-	background-color: #fb8111;
+	background-color: #fcac45;
 	color: #fff;
 	font-size: 30px;
 	line-height: 39px;
@@ -112,8 +111,8 @@
 .projects__info:focus,
 .projects__info:active {
 	outline: none;
-	border: 1px solid #fb8111;
-	color: #fb8111;
+	border: 1px solid #fcac45;
+	color: #fcac45;
 	background-color: #000;
 }
 

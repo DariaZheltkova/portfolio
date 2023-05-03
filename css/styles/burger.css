@@ -52,3 +52,54 @@
 	bottom: 50%;
 	transform: rotate(45deg);
 }
+
+.burger__menu {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 100%;
+	padding: 25px;
+	overflow: auto;
+	background: rgba(0, 0, 0, 0.9);
+	transition: all .2s;
+	z-index: 9;
+}
+
+.burger__content {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	z-index: 10;
+}
+
+.burger__logo-img {
+	margin-bottom: 37px;
+	width: 70%;
+}
+
+.burger__nav {
+	margin-bottom: 50px;
+}
+
+.burger__nav-link {
+	font-size: 30px;
+	margin: 0 0 25px;
+	line-height: 62px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+
+.burger__nav-link:hover,
+.burger__nav-link:active,
+.burger__nav-link:focus {
+	outline: none;
+	color: #fcac45;
+}
+
+
+
