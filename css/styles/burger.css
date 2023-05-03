@@ -75,8 +75,11 @@
 	z-index: 10;
 }
 
+.burger__logo {
+	margin-bottom: 35px;
+}
+
 .burger__logo-img {
-	margin-bottom: 37px;
 	width: 70%;
 }
 
