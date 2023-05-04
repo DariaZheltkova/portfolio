@@ -65,7 +65,7 @@
 	padding: 25px;
 	overflow: auto;
 	background: rgba(0, 0, 0, 0.9);
-	transition: all .2s;
+	transition: all .7s;
 	z-index: 9;
 }
 
